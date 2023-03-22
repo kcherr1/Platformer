@@ -1,23 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Player : MonoBehaviour {
+  public Animator animator;
+  public float speed;
+
   private CharacterController2D charCon;
-  private float move;
-  // Start is called before the first frame update
-  void Start() {
+  private float moveDir;
+  private bool jump;
+
+  private void Start() {
     charCon = GetComponent<CharacterController2D>();
+    jump = false;
   }
 
-  // Update is called once per frame
-  void Update() {
-    move = 0;
-    move += (Input.GetKey(KeyCode.LeftArrow) ? -1 : 0);
-    move += (Input.GetKey(KeyCode.RightArrow) ? +1 : 0);
+  private void Update() {
+    moveDir = Input.GetAxis("Horizontal");
+    if (Input.GetKeyDown(KeyCode.Space)) {
+      jump = true;
+      animator.SetTrigger("Jump");
+    }
+    if (Input.GetKeyDown(KeyCode.K)) {
+      animator.SetTrigger("Death");
+    }
   }
 
   private void FixedUpdate() {
-    charCon.Move(move, false, false);
+    charCon.Move(moveDir * speed * Time.fixedDeltaTime, false, jump);
+    if (charCon.IsPlayerOnGround()) {
+      animator.SetTrigger("Grounded");
+    }
+    jump = false;
+    animator.SetFloat("Idle Run", Mathf.Abs(moveDir));
   }
 }

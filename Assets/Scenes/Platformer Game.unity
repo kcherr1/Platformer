@@ -175,7 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 98364735}
   - component: {fileID: 98364736}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 221664626}
   - component: {fileID: 221664627}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 226085965}
   - component: {fileID: 226085967}
   - component: {fileID: 226085966}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5691,7 +5691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 244281319}
   - component: {fileID: 244281320}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5775,7 +5775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258296805}
   - component: {fileID: 258296806}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6733,7 +6733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 303997529}
   - component: {fileID: 303997530}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7271,7 +7271,7 @@ GameObject:
   - component: {fileID: 343014376}
   - component: {fileID: 343014378}
   - component: {fileID: 343014377}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12311,7 +12311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &386829266
 Transform:
   m_ObjectHideFlags: 0
@@ -12334,7 +12334,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386829265}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -12369,7 +12369,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &400007450
 Transform:
   m_ObjectHideFlags: 0
@@ -12392,7 +12392,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400007449}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -12615,7 +12615,7 @@ GameObject:
   - component: {fileID: 432803692}
   - component: {fileID: 432803694}
   - component: {fileID: 432803693}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dust particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17509,6 +17509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada19fc1ede6cd44694e91b18e52272c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 468027330}
+  speed: 150
 --- !u!114 &468027329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17531,6 +17533,8 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 400007450}
   m_CeilingCheck: {fileID: 386829266}
   m_CrouchDisableCollider: {fileID: 0}
+  k_GroundedRadius: 1
+  m_Grounded: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -17550,7 +17554,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 6ae5d5d708f664f8d8690c3f4f103e74, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -17901,7 +17905,7 @@ GameObject:
   - component: {fileID: 523607746}
   - component: {fileID: 523607748}
   - component: {fileID: 523607747}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22712,7 +22716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 540564605}
   - component: {fileID: 540564606}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22799,7 +22803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549698571}
   - component: {fileID: 549698572}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22910,7 +22914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 582534712}
   - component: {fileID: 582534713}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23191,7 +23195,7 @@ GameObject:
   - component: {fileID: 678714567}
   - component: {fileID: 678714566}
   - component: {fileID: 678714565}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ground2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23748,7 +23752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766067157}
   - component: {fileID: 766067158}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23859,7 +23863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 788555871}
   - component: {fileID: 788555872}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23946,7 +23950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 818351441}
   - component: {fileID: 818351442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24266,7 +24270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 910963718}
   - component: {fileID: 910963719}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24377,7 +24381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941564848}
   - component: {fileID: 941564849}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24687,7 +24691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 979079012}
   - component: {fileID: 979079013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24775,7 +24779,7 @@ GameObject:
   - component: {fileID: 1007375256}
   - component: {fileID: 1007375258}
   - component: {fileID: 1007375257}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29779,7 +29783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1037319129}
   - component: {fileID: 1037319130}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30566,7 +30570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1207438927}
   - component: {fileID: 1207438928}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30678,7 +30682,7 @@ GameObject:
   - component: {fileID: 1297603032}
   - component: {fileID: 1297603034}
   - component: {fileID: 1297603033}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35491,7 +35495,7 @@ GameObject:
   - component: {fileID: 1311830806}
   - component: {fileID: 1311830805}
   - component: {fileID: 1311830804}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ground1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36222,7 +36226,7 @@ GameObject:
   - component: {fileID: 1328641492}
   - component: {fileID: 1328641494}
   - component: {fileID: 1328641493}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41236,7 +41240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1349876075}
   - component: {fileID: 1349876076}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light pole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41322,7 +41326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1355115991}
   - component: {fileID: 1355115992}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41599,7 +41603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1379420844}
   - component: {fileID: 1379420845}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42147,7 +42151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451178948}
   - component: {fileID: 1451178949}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42232,7 +42236,7 @@ GameObject:
   - component: {fileID: 1470408304}
   - component: {fileID: 1470408306}
   - component: {fileID: 1470408305}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47043,7 +47047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1533994899}
   - component: {fileID: 1533994900}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47127,7 +47131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1609845399}
   - component: {fileID: 1609845400}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47238,7 +47242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621993686}
   - component: {fileID: 1621993687}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47358,7 +47362,7 @@ GameObject:
   - component: {fileID: 1703900252}
   - component: {fileID: 1703900254}
   - component: {fileID: 1703900253}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52362,7 +52366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1738215331}
   - component: {fileID: 1738215332}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52723,7 +52727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1804123458}
   - component: {fileID: 1804123459}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53104,7 +53108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2014020868}
   - component: {fileID: 2014020869}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53378,7 +53382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046886247}
   - component: {fileID: 2046886248}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53489,7 +53493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048048784}
   - component: {fileID: 2048048785}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53577,7 +53581,7 @@ GameObject:
   - component: {fileID: 2073610725}
   - component: {fileID: 2073610727}
   - component: {fileID: 2073610726}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58387,7 +58391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2074438163}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ground
   m_TagString: ground
   m_Icon: {fileID: 0}
@@ -58432,7 +58436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2106387176}
   - component: {fileID: 2106387177}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58885,7 +58889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2144231904}
   - component: {fileID: 2144231905}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
