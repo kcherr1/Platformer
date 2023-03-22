@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b38e88dd78e1e4e1ab406d9b84bd8c3b
+guid: d1547e3b786184851874de64147997cb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -105,34 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: head
+      name: ground top
       rect:
         serializedVersion: 2
         x: 0
-        y: 134
-        width: 128
-        height: 122
-      alignment: 9
-      pivot: {x: 0.4967748, y: 0.009333376}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 707596e5dd4344c079b7fc3ec1f8e4d1
-      internalID: 1850381977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: body
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 174
-        width: 71
-        height: 82
+        y: 950
+        width: 317
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8ec3d98396fd4f7fb052cbeb9c21038
-      internalID: 295523756
+      spriteID: bafbf73c407ac444db42d3fd546af472
+      internalID: 791214767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eye
+      name: ground fill
       rect:
         serializedVersion: 2
-        x: 0
-        y: 67
-        width: 33
-        height: 36
+        x: 330
+        y: 731
+        width: 317
+        height: 293
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,62 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 749e2926bcc714feb8caa0ea0a4d93ea
-      internalID: -72582529
+      spriteID: 601ba09eca1ab4c2d8729576c28b724e
+      internalID: -555229913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 67
-        width: 34
-        height: 61
-      alignment: 9
-      pivot: {x: 0.48785806, y: 0.71657}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 581a0c353ebc748b5bdd422542e6fba0
-      internalID: -1342835225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: leg
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 51
-        width: 33
-        height: 77
-      alignment: 9
-      pivot: {x: 0.51251125, y: 0.8002448}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 137834995f77041548d2617e7f2a795c
-      internalID: 517866251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eyeclosed
+      name: tree top
       rect:
         serializedVersion: 2
         x: 0
-        y: 51
-        width: 33
-        height: 9
+        y: 276
+        width: 420
+        height: 407
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +161,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77a7743c8c55e4f4c80e74f8dec9825f
-      internalID: -1713222910
+      spriteID: 9cccb443fde2a4e9fac1fcbe05845257
+      internalID: -287071559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 276
+        width: 129
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c1df6a44ab64591ac317db10bb51bf
+      internalID: 2075819286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 338
+        width: 30
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509b094c64c184f62998e8939fbd36f4
+      internalID: -985742260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 349
+        width: 17
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e2cd785f3df46c197315b873b16ab2
+      internalID: 725709842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 599
+        width: 129
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516b4ab9104e14585a2ba881341bd335
+      internalID: -911592526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground bottom
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 719
+        width: 317
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e4bb78e60354635948e45a28c572e5
+      internalID: 1039730239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 805
+        width: 64
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2459e2446398d4dbfaefa82c6515e061
+      internalID: -508702879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground right
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 803
+        width: 79
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc458631f7b44f80b4ee6034281fcf5
+      internalID: -30081588
       vertices: []
       indices: 
       edges: []
@@ -241,12 +325,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      arm: -1342835225
-      body: 295523756
-      eye: -72582529
-      eyeclosed: -1713222910
-      head: 1850381977
-      leg: 517866251
+      branch1: -985742260
+      branch2: 725709842
+      ground bottom: 1039730239
+      ground fill: -555229913
+      ground left: -508702879
+      ground right: -30081588
+      ground top: 791214767
+      leaves: -911592526
+      tree top: -287071559
+      trunk: 2075819286
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
