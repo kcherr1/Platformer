@@ -17162,54 +17162,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!1 &433169620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 433169621}
-  - component: {fileID: 433169622}
-  m_Layer: 0
-  m_Name: Chase Radius
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &433169621
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 433169620}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1889520331}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &433169622
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 433169620}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 6.25
 --- !u!1 &498891573
 GameObject:
   m_ObjectHideFlags: 0
@@ -17535,7 +17487,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6800001, y: 1.3300004, z: -10}
+  m_LocalPosition: {x: -0.68000025, y: 1.3300004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52612,11 +52564,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5315667177964741390, guid: 51cfbbc2cb1b23a419b59d3ee68eda19, type: 3}
   m_PrefabInstance: {fileID: 5315667175904183622}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1889520331 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5315667177964741384, guid: 51cfbbc2cb1b23a419b59d3ee68eda19, type: 3}
-  m_PrefabInstance: {fileID: 5315667175904183622}
-  m_PrefabAsset: {fileID: 0}
 --- !u!58 &1889520332
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -52696,7 +52643,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898844389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6800001, y: 1.3300004, z: -10}
+  m_LocalPosition: {x: -0.68000025, y: 1.3300004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
